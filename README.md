@@ -11,7 +11,7 @@ SharpDeletation is a Go interface feature implementation of C#,it depends on del
 
 ##Getting Started
 
-1. How to write interface code.
+* How to write interface code.
 
 
 ```c#
@@ -43,7 +43,7 @@ or
 
 ```
 
-2. The implemention.
+* The implemention.
 
 
 ```c#
@@ -110,7 +110,7 @@ or
 
 ```
 
-3. Invoke
+* Presentation.
 
 ```c#
 

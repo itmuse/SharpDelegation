@@ -9,9 +9,9 @@ Effective Go also has a section on [go interfaces](http://golang.org/doc/effecti
 SharpDeletation is a Go interface feature implementation of C#,it depends on delegate.
 
 
-##Get start
+##Getting Started
 
-1. Define interface.
+1. How to write interface code.
 
 
 ```c#
@@ -127,6 +127,18 @@ or
 
 	quack = new QuackBehavior(typeof(MuteQuack));
 	quack.Quack();
+
+```
+or
+
+```c#
+
+FlyBehavior fly = Delegation.New<FlyBehavior>(typeof(FlyAndQuack));
+fly.Fly();
+
+
+QuackBehavior quack = new QuackBehavior(typeof(FlyAndQuack));
+quack.Quack();
 
 ```
 
